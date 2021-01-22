@@ -33,7 +33,7 @@ body {
 #subscribe-us:hover {
   letter-spacing: 4px;
 }
-#model {
+#modal {
   position: absolute;
   top: 50%;
   left: -100%;
@@ -44,48 +44,48 @@ body {
   transition: 1s;
   visibility: hidden;
 }
-#model.active {
+#modal.active {
   visibility: visible;
   left: 50%;
 }
-#model .model-content {
+#modal .modal-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#model .model-content img {
+#modal .modal-content img {
   width: 80px;
 }
-#model .model-content h2 {
+#modal .modal-content h2 {
   font-size: 24px;
   font-weight: 800;
   margin: 20px 0px;
 }
-.model-input {
+.modal-input {
   margin-top: 20px;
   width: 100%;
 }
-.model-input input {
+.modal-input input {
   width: 100%;
   border: 1px solid #cccccc;
   padding: 15px;
   outline: none;
   font-size: 18px;
 }
-.model-input input[type="submit"] {
+.modal-input input[type="submit"] {
   letter-spacing: 2px;
   cursor: pointer;
 }
-.model-input input[type="submit"]:hover {
+.modal-input input[type="submit"]:hover {
   letter-spacing: 4px;
 }
-.close-model {
+.close-modal {
   position: absolute;
   top: 30px;
   right: 30px;
   cursor: pointer;
 }
-.close-model img {
+.close-modal img {
   width: 20px;
 }
